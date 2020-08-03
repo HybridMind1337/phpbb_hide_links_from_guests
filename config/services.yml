@@ -1,0 +1,9 @@
+services:
+  hybridmind.hide_url_for_guest.listener:
+    class: hybridmind\hide_url_for_guest\event\listener
+    arguments:
+      - '@config'
+      - '@template'
+      - '@user'
+    tags:
+      - name: event.listener

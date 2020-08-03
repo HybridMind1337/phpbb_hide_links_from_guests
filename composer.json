@@ -1,0 +1,31 @@
+{
+	"name": "hybridmind/hide_url_for_guest",
+	"type": "phpbb-extension",
+	"description": "Hide all url for guest",
+	"homepage": "https://webocean.info/",
+	"version": "2.0.0",
+	"time": "2020-07-30",
+    "keywords": [
+        "phpbb",
+        "extension",
+        "hide_url_for_guest"
+    ],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "hybridmind",
+			"homepage": "https://webocean.info/",
+			"email": "admin@webocean.info",
+			"role": "Web Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"extra": {
+		"display-name": "Hide URL For Guest",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.2.0,<=3.3.*@dev"
+		}
+	}
+}
